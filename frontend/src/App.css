@@ -1,0 +1,119 @@
+
+body{
+  overflow-x: hidden;
+}
+  /* _______FOR NAVBAR ________*/
+.navbar-nav a {
+  transition: all ease 0.5s;
+  font-size: 0.9em;
+  color: aliceblue;
+  padding-bottom: 1px;
+  background-image: linear-gradient(#fbd0af 0 0);
+  background-position: right -100% bottom 0;
+  background-size: 200% 2px;
+  background-repeat: no-repeat;
+}
+.navbar-nav a:hover {
+  color: #fbd0af;
+  background-position: left -100% bottom 0;
+  transition: 1s;
+}
+.navbar-nav .nav-link.active {
+  text-decoration: underline;
+}
+
+.middle-navbar {
+  max-height: 180px;
+  font-size: 0.9rem;
+  font-family: "FuturaPT", "Arial", "sansSerif";
+}
+.navbar2 {
+  background-color: black;
+}
+.main-navbar {
+  background-color: #f7ac99;
+}
+.navbar-button {
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 0rem;
+  width: 8.6rem;
+  height: 2.5rem;
+  font-size: 0.91em;
+  font-weight: bold;
+}
+.navbar-button:hover{
+  background-color: #f0db86;
+}
+/* _________ BACKGROUND IMAGE _______*/
+.bg-img {
+  /* The image used */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://thumb.tildacdn.com/tild3338-3763-4666-a530-616261393533/-/format/webp/__12.jpg");
+  height: 293px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.bg-img2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("https://thumb.tildacdn.com/tild3338-3763-4666-a530-616261393533/-/format/webp/__12.jpg");
+  min-height: 165px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/*  _____CARD_____  */
+.hover-card-image{
+  height: 18rem;
+  width: 16rem;
+}
+.hover-card-image:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0.4;
+}
+/*  ____FOR INPUT FIELD___ */
+.search-icon {
+  width: 15px;
+}
+/* ____MAIN BUTTON___ */
+.center-button {
+  background-color: black;
+  width: 8.7rem;
+  height: 3rem;
+  font-size: 0.86rem;
+}
+.center-button:hover {
+  background-color: rgb(71, 71, 71);
+}
+input:focus, input.form-control:focus {
+  box-shadow: none  !important;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: none  !important;
+}
+.heading-portrait{
+  font-size: 1.2rem;
+  font-family: "FuturaPT,Arial,sans-serif";
+     
+
+}
+
+.text-portrait{
+  font-size: 0.86rem;
+  font-family: "FuturaPT,Arial,sans-serif";  
+           
+}
+
+
+.nothing{
+  text-decoration: none;
+}

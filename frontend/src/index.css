@@ -1,0 +1,59 @@
+/* ___CARD____ */
+.card {
+  border: none;
+}
+.text {
+  font-weight: 400;
+  font-size: 17px;
+  font-family: "FuturaPT", Arial, sans-serif;
+  line-height: 24px;
+}
+/* ____SELECT_____ */
+a {
+  color: black;
+}
+.input {
+  font-family: "FuturaPT", "Arial", "sans-serif";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.55;
+  color: rgb(137, 134, 134);
+  width: 200px;
+  height: 5.7vh;
+  background-color: #f8f8f8;
+}
+.Select-form {
+  width: 194px;
+}
+.select-Text {
+  height: 5.7vh;
+}
+.let {
+  font-family: "FuturaPT", "Arial", "sans-serif";
+  font-weight: 300;
+}
+.select {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.55;
+  color: rgb(137, 134, 134);
+  border: 0px;
+  outline: 0px;
+}
+/* _____FOOTER_____ */
+.paypal {
+  width: 2.3rem;
+}
+.mastercard {
+  width: 2.3rem;
+  margin-left: 0.5rem;
+}
+.maestro {
+  width: 2.3rem;
+  margin-left: 0.5rem;
+}
+.visa {
+  width: 2.3rem;
+  margin-left: 0.5rem;
+}
