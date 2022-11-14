@@ -1,12 +1,9 @@
 import React from 'react'
 
 function Acrylic() {
-
   return (
-   <>
-  <h1>acyrlic</h1>
-   </>
-    )
+    <div>Acrylic</div>
+  )
 }
 
 export default Acrylic

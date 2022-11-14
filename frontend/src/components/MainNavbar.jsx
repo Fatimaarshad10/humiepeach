@@ -7,7 +7,8 @@ import "../App.css";
 function OffcanvasExample() {
   return (
     <>
-      {["sm"].map((expand) => (
+    <div className="col-lg-12 col-md-12 col-12">
+      {["lg"].map((expand) => (
         <Navbar key={expand} expand={expand}>
           <Container fluid>
             <Navbar.Brand></Navbar.Brand>
@@ -16,7 +17,7 @@ function OffcanvasExample() {
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="top"
-              className="h-100 text-center main-navbar"
+              className="h-100 text-center main-navbar "
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title
@@ -40,9 +41,9 @@ function OffcanvasExample() {
                     Contacts
                   </Nav.Link>
                 </Nav>
-                <Nav className="  fw-bolder  mx-5">
+                <Nav className="fw-bolder  mx-5">
                   <Nav.Link className="me-3 " href="/guide">
-                    <Button className="fw-bold text-white navbar-button">
+                    <Button className="fw-bold text-white navbar-button ">
                       Buy e-guide
                     </Button>
                   </Nav.Link>
@@ -58,6 +59,7 @@ function OffcanvasExample() {
           </Container>
         </Navbar>
       ))}
+      </div>
     </>
   );
 }

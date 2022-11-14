@@ -6,7 +6,7 @@ function NavScrollExample() {
   return (
     <Navbar expand="lg" className="text-center navbar2">
       <Container fluid>
-        <Nav className="mx-auto my-2 my-lg-0 text-center middle-navbar">
+        <Nav className="mx-auto text-center style">
           <Nav.Link className=" mx-2 " href="/Watercolour">
             WATERCOLOUR
           </Nav.Link>

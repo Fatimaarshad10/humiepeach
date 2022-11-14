@@ -14,11 +14,12 @@ import Guides from "./components/guides";
 import Sketchbooks from "./components/sketchbooks";
 import Prints from "./components/prints";
 import ManinImage from "./components/navbar";
-
+import Footer from './components/footer'
 function App() {
   return (
     <>
       <ManinImage />  
+     <Footer/>
       <Routes>
         <Route path="/Shop" element={<Shop />} />
         <Route path="/commission" element={<Commissions />} />
@@ -33,6 +34,7 @@ function App() {
         <Route path="/Sketchbooks" element={<Sketchbooks />} />
         <Route path="/Prints" element={<Prints />} />
       </Routes>
+     
     </>
   );
 }

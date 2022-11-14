@@ -18,15 +18,24 @@ a {
   font-size: 12px;
   line-height: 1.55;
   color: rgb(137, 134, 134);
-  width: 200px;
-  height: 5.7vh;
-  background-color: #f8f8f8;
+  width: 12rem;
+  height: 5vh;
+}
+.input2 {
+  font-family: "FuturaPT", "Arial", "sans-serif";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.55;
+  color: rgb(137, 134, 134);
+  width: 12rem;
+  height: 5vh;
 }
 .Select-form {
   width: 194px;
 }
 .select-Text {
-  height: 5.7vh;
+  height: 5vh;
+  
 }
 .let {
   font-family: "FuturaPT", "Arial", "sans-serif";

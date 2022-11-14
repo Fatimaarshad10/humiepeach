@@ -4,12 +4,14 @@ function Commissions() {
   return (
     <>
       <div className="bg-img2 mt-5 ">
+       
         <div class="container ">
-          <div class="row row-cols-3 row-cols-lg-5 g-3 g-lg-4 ms-auto">
-            <div class="col ms-auto">
-              <h5 class="text-white fw-bold ">Shop</h5>
-              <ul class="list-unstyled mb-0">
+  <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 mt-5 p-4  m-5">
+
+           
+              <ul class="list-unstyled mt-2">
                 <li>
+                <h5 class="text-white fw-bold ">Shop</h5>
                   <a href="#!" class="text-white   text-decoration-none">
                     Watercolour
                   </a>
@@ -30,12 +32,13 @@ function Commissions() {
                   </a>
                 </li>
               </ul>
-            </div>
-            <div class="col ms-4">
+        
+            
+
+              <ul class="list-unstyled mt-2">
+                <li>
               <h5 class="text-white fw-bold ">Service and support</h5>
 
-              <ul class="list-unstyled mb-0 ">
-                <li>
                   <a href="#!" className=" text-white text-decoration-none">
                     Delivery and payment
                   </a>
@@ -51,13 +54,14 @@ function Commissions() {
                   </a>
                 </li>
               </ul>
-            </div>
+            
 
-            <div class="col ms-auto">
-              <h5 class="text-white fw-bold">Other</h5>
+           
+             
 
-              <ul class="list-unstyled mb-0">
+              <ul class="list-unstyled mt-2 ">
                 <li>
+                <h5 class="text-white fw-bold">Other</h5>
                   <a href="#!" class="text-white  text-decoration-none">
                     Contacts
                   </a>
@@ -68,12 +72,13 @@ function Commissions() {
                   </a>
                 </li>
               </ul>
-            </div>
-            <div class="col ms-2">
+           
+            
+
+              <ul class="list-unstyled mt-2 ">
+                <li>
               <h5 class="text-white fw-bold ">Contact me</h5>
 
-              <ul class="list-unstyled mb-0">
-                <li>
                   <a href="#!" class="text-white  text-decoration-none">
                     peach@humidpeach.com
                   </a>
@@ -102,10 +107,11 @@ function Commissions() {
                   />
                 </li>
               </ul>
-            </div>
+           
           </div>
         </div>
       </div>
+     
     </>
   );
 }
