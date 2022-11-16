@@ -13,28 +13,38 @@ import Oil from "./components/oil";
 import Guides from "./components/guides";
 import Sketchbooks from "./components/sketchbooks";
 import Prints from "./components/prints";
-import ManinImage from "./components/navbar";
-import Footer from './components/footer'
+import Detail from "./components/detail";
+import MainNavbar from "./components/navbar";
+import MdNavbar from "./components/navbar2";
+
 function App() {
   return (
     <>
-      <ManinImage />  
-     <Footer/>
+    
+     <div>
+     <MainNavbar />  
+      <MdNavbar/>
       <Routes>
-        <Route path="/Shop" element={<Shop />} />
+      <Route path="/Shop" element={<Shop />} />
         <Route path="/commission" element={<Commissions />} />
         <Route path="/delivery" element={<Delivery />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contacts" element={<Contact />} />
         <Route path="/Watercolour" element={<Watercolor />} />
+        <Route path="/Watercolour/product/:id" element={<Detail/>} />
         <Route path="/Pencil" element={<Pencil />} />
         <Route path="/Acrylic" element={<Acrylic />} />
         <Route path="/Oil" element={<Oil />} />
         <Route path="/Guides" element={<Guides />} />
         <Route path="/Sketchbooks" element={<Sketchbooks />} />
         <Route path="/Prints" element={<Prints />} />
+
+        
       </Routes>
-     
+      
+      
+      
+     </div>
     </>
   );
 }

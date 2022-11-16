@@ -5,16 +5,16 @@ function Pencil() {
   return (
    <>
   <div class="container">
-  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 mt-5 p-4 ">
-  <Card >
+  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 mt-5 p-4 checking-info ">
+  <Card className='checkOut' >
           <Card.Img
           style={{width:'73%'}}
-          className='ms-5  d-none d-md-block rounded-0'
+          className='ms-5  d-none d-md-block rounded-0 '
             variant="top"
             src="https://thumb.tildacdn.com/tild6233-3763-4233-a165-333931646566/-/resize/800x/-/format/webp/___3.png"
           />
         </Card>
-        <Card >
+        <Card className='checkOut2 p-2'>
           <Card.Text className='ms-3'>
             Hi! My name is Ksu, but you know me as Humid Peach{" "}
             <img

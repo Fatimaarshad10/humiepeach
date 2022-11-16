@@ -1,5 +1,6 @@
   /* _______FOR NAVBAR ________*/
-.navbar-nav a {
+
+.navbar-main3  .changing-navbar{
   transition: all ease 0.5s;
   font-size: 0.9em;
   color: aliceblue;
@@ -9,6 +10,11 @@
   background-size: 230% 1px;
   background-repeat: no-repeat;
 }
+.navbar-main3  .changing-navbar:hover{
+  max-height: 180px;
+  font-size: 0.9rem;
+  font-family: "FuturaPT", "Arial", "sansSerif";
+}
 .navbar-nav a:hover {
   color: #fbd0af;
   background-position: left -102% bottom 0;
@@ -17,24 +23,76 @@
 .navbar-nav .nav-link.active {
   text-decoration: underline;
 }
-
-.middle-navbar {
-  max-height: 180px;
-  font-size: 0.9rem;
-  font-family: "FuturaPT", "Arial", "sansSerif";
-}
 .navbar2 {
   background-color: black;
+}
+/* MAIN NAVBAR  */
+.navbar-main2 .changing-color{
 
+  font-size: 0.9em;
+  color: aliceblue;
+ 
+ 
+}
+.navbar-main2 .changing-color:hover{
+  
+  font-family: "FuturaPT", "Arial", "sansSerif";
+}
+@media only screen and (max-width: 990px) {
+  .offcanvas-main{
+   
+   background-color: rgb(255, 255, 255);
+  text-align: center;
+   font-size: 1.5rem;
+  }
+ .navbar-toggler {
+    
+  }
+  .toggle-1{
+    border: none;
+    box-shadow: none !important;
 
+  }
+  .toggle-1:hover{
+    box-shadow: none !important;
+
+  }
+  .navbar-main2 .changing-color{
+    color: black;
+    padding-top: 15px;
+  }
+  .cross{
+    font-size: 1.3rem;
+    box-shadow: none !important;
+  }
+  
+
+}
+
+@media only screen and (min-width: 1060px) {
+  .large-block{
+    display: none;
+   
+  }
+
+ 
+}
+@media only screen and (max-width: 1090px) {
+  .small-block{
+    display: none;
+  }
+  
+}
+.style-nav{
+  font-size: 12px;
+  text-decoration: none;
+  padding-left: 0.7rem;
 }
 .style{
   font-size: 14px;
 
 }
-.main-navbar {
-  background-color: #f7ac99;
-}
+
 .navbar-button {
   background-color: #ffcc00;
   border: none;
@@ -74,17 +132,6 @@
   background-size: cover;
   position: relative;
 }
-/*  _____CARD_____  */
-.hover-card-image{
-  height: 20em;
-  width: 16em;
-}
-.hover-card-image:hover {
-  cursor: pointer;
-  transition: 0.5s;
-  opacity: 0.4;
-}
-
 /*  ____FOR INPUT FIELD___ */
 .search-icon {
   width: 15px;
@@ -124,6 +171,49 @@ textarea:focus {
 .nothing{
   text-decoration: none;
 }
+/*  _____CARD_____  */
+.danger-container{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+  
+}
+.danger-card{
+  margin: 0px 20px ;
+  width: 16em;
+  margin-top: 40px;
+}
+.danger-image{
+  height: 50vh;
 
+}
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  
+}
 
+.overlay:hover  {
+  opacity: 0.6;
+  transition: 0.6s ease;
+  background-color: #000000;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

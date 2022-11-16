@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import ProductsJson from "../js/data.json";
 import { Card } from "react-bootstrap";
+
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import InputGroup from "react-bootstrap/InputGroup";
 import "../App.css";
 import "../index.css";
 import SearchIcon from "../images/search.png";
+import { Link } from "react-router-dom";
 function ProductsData() {
   const [searchList, setSearchList] = useState("");
+
   console.log(searchList);
   return (
     <>
@@ -42,7 +45,7 @@ function ProductsData() {
           </InputGroup>
        
         
-          <Form.Select className="input2 me-3 p-1">
+          <Form.Select className="input2 ms-4 p-1">
             <option >Sort: by default</option>
             <option value="1">Price: low to high</option>
             <option value="2">Price: high to low</option>
@@ -54,10 +57,9 @@ function ProductsData() {
         
       
         </div>
-        </div>
-        <div className="container mt-5">
-        <div class="row ">
- 
+        </div> 
+        <div className="danger-container text-center">
+  
   {ProductsJson.filter((val) => {
             if (searchList === " ") {
               return val;
@@ -67,26 +69,30 @@ function ProductsData() {
               return val;
             }
           }).map((data) => (
-                <div className='col-8 col-lg-3 col-md-5 col-sm-6  text-center perfect '>
-                <Card key={data.id} className='p-3' >
-                  <Card.Img
-                    variant="top"
-                    src={data.image}
-                    className="hover-card-image rounded-0"
-                  />
-                  <Card.Body >
-                    <h6 className="heading-portrait ">{data.title}</h6>
-                    <Card.Text className="text-portrait">
-                      {data.price} usd
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              
-            </div>
-          ))}
-         </div>
-         </div>
-         <div className="text-center mt-2 mb-3">
+        <div >
+        <Card key={data.id}  className='danger-card '>
+          <Card.Img
+            variant="top"
+            src={data.image}
+            className=" danger-image rounded-0"
+            
+          />
+          <Card.Body  class="overlay">
+            <h6 className="heading-portrait ">{data.title}</h6>
+            <Link to={`/Watercolour/product/${data.id}`} class="text">
+              <Button className='bg-dark border-0'>Detail</Button>
+               
+             </Link>
+         <Card.Text className="text-portrait ">
+              {data.price} usd
+
+            </Card.Text>
+          </Card.Body>
+        </Card>
+    </div>
+  ))}
+ </div>
+         <div className="text-center mt-5 mb-3">
     <Button className="fw-bold center-button">Load more</Button>
   </div>
     </>

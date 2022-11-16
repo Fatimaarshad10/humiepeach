@@ -2,7 +2,12 @@ import React from 'react'
 
 function Commissions() {
   return (
-    <div>Commissions</div>
+
+   
+    <>
+    
+    fatima</>
+     
   )
 }
 

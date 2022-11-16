@@ -1,6 +1,7 @@
 /* ___CARD____ */
 .card {
   border: none;
+  
 }
 .text {
   font-weight: 400;
@@ -27,7 +28,7 @@ a {
   font-size: 12px;
   line-height: 1.55;
   color: rgb(137, 134, 134);
-  width: 12rem;
+  width: 13rem;
   height: 5vh;
 }
 .Select-form {
@@ -65,4 +66,34 @@ a {
 .visa {
   width: 2.3rem;
   margin-left: 0.5rem;
+}
+/* MY IFNO  */
+@media only screen and (max-width: 990px) {
+  .checking-info{
+display: flex;
+  flex-direction: column-reverse;
+ 
+
+  }
+  .checkOut{
+margin-left: 40px;
+width: 120em;
+  }
+  .checkOut2{
+    text-align: center;
+    width: 130em;
+    
+      }
+}
+.detail-image{
+  height: 80vh;
+ 
+  
+}
+.detail-input{
+  display: flex;
+
+}
+.detail-button-color{
+  color: black;
 }

@@ -1,9 +1,4 @@
 import TopNavbar from "./MainNavbar";
-import MdNavbar from "./navbar2";
-import Info from "./info";
-import ProductsData from "./ProductsData";
-import Footer from "./footer";
-import Acrylic from './acrylic'
 import "../App.css";
 function BasicExample() {
   return (
@@ -21,10 +16,8 @@ function BasicExample() {
           />
         </div>
       </div>
-      <MdNavbar/>
-    <Info/>
-   <ProductsData/>
-  
+     
+
     </>
   );
 }

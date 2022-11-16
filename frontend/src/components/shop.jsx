@@ -1,8 +1,15 @@
 import React from 'react'
-
+import Info from "./info";
+import ProductsData from "./ProductsData";
+import Footer from './footer'
 function Shop() {
   return (
-    <div>Shop</div>
+    <div>
+
+      <Info/>
+      <ProductsData/>
+     <Footer/>
+    </div>
   )
 }
 
