@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function RowColLayoutColWidthBreakpointExample() {
+function Footer() {
   return (
     <div className="bg-img2 mt-5 ">
     <Container >
@@ -106,4 +106,4 @@ function RowColLayoutColWidthBreakpointExample() {
   );
 }
 
-export default RowColLayoutColWidthBreakpointExample;
+export default Footer;

@@ -4,28 +4,28 @@ import Navbar from "react-bootstrap/Navbar";
 import "../App.css";
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="text-center navbar2">
+    <Navbar expand="lg" className="second-navbar">
       <Container fluid>
-        <Nav className="mx-auto text-center style navbar-main3">
-          <Nav.Link className=" mx-2  changing-navbar" href="/Watercolour" >
+        <Nav className="mx-auto text-center second-navbar-nav">
+          <Nav.Link className="mx-1  " href="/Watercolour" >
             WATERCOLOUR
           </Nav.Link>
-          <Nav.Link className=" mx-2  changing-navbar" href="/Pencil">
+          <Nav.Link className=" mx-1 " href="/Pencil">
             PENCIL
           </Nav.Link>
-          <Nav.Link className=" mx-2  changing-navbar" href="/Acrylic">
+          <Nav.Link className=" mx-1  " href="/Acrylic">
             ACRYLIC
           </Nav.Link>
-          <Nav.Link className=" mx-2  changing-navbar" href="/Oil">
+          <Nav.Link className=" mx-1  " href="/Oil">
             OIL
           </Nav.Link>
-          <Nav.Link className=" mx-2  changing-navbar" href="/Guides">
+          <Nav.Link className=" mx-1 " href="/Guides">
             GUIDES
           </Nav.Link>
-          <Nav.Link className=" mx-2  changing-navbar" href="/Sketchbooks">
+          <Nav.Link className=" mx-1 " href="/Sketchbooks">
             SKETCHBOOKS
           </Nav.Link>
-          <Nav.Link className=" mx-2  changing-navbar" href="/Prints">
+          <Nav.Link className=" mx-1" href="/Prints">
             PRINTS
           </Nav.Link>
         </Nav>

@@ -1,12 +1,13 @@
 import React from "react";
 import "../index.css";
+import Check from './check'
 function Commissions() {
   return (
     <>
+    
       <div className="bg-img2 mt-5 ">
-       
         <div class="container ">
-  <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 mt-5 p-4  m-5">
+          <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 mt-5  p-3">
 
            
               <ul class="list-unstyled mt-2">
@@ -75,7 +76,7 @@ function Commissions() {
            
             
 
-              <ul class="list-unstyled mt-2 ">
+              <ul class="list-unstyled mt-2  ">
                 <li>
               <h5 class="text-white fw-bold ">Contact me</h5>
 
@@ -98,12 +99,12 @@ function Commissions() {
                   <img
                     src="https://thumb.tildacdn.com/tild3235-3362-4633-a165-306630363637/-/resize/80x/-/format/webp/maestro.png"
                     alt="maestro"
-                    className="maestro"
+                    className="mastercard"
                   />
                   <img
                     src="https://thumb.tildacdn.com/tild6333-3037-4636-b366-373239306562/-/resize/80x/-/format/webp/visa.png"
                     alt="visa"
-                    className="visa"
+                    className="mastercard"
                   />
                 </li>
               </ul>

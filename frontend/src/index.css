@@ -53,20 +53,14 @@ a {
 }
 /* _____FOOTER_____ */
 .paypal {
-  width: 2.3rem;
+  width: 3rem;
 }
 .mastercard {
-  width: 2.3rem;
+  width: 3rem;
   margin-left: 0.5rem;
 }
-.maestro {
-  width: 2.3rem;
-  margin-left: 0.5rem;
-}
-.visa {
-  width: 2.3rem;
-  margin-left: 0.5rem;
-}
+
+
 /* MY IFNO  */
 @media only screen and (max-width: 990px) {
   .checking-info{
