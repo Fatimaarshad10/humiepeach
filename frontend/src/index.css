@@ -1,7 +1,6 @@
 /* ___CARD____ */
 .card {
   border: none;
-  
 }
 .text {
   font-weight: 400;
@@ -17,10 +16,8 @@ a {
   font-family: "FuturaPT", "Arial", "sans-serif";
   font-weight: 300;
   font-size: 12px;
-  line-height: 1.55;
-  color: rgb(137, 134, 134);
+   color: rgb(137, 134, 134);
   width: 12rem;
-  height: 5vh;
 }
 .input2 {
   font-family: "FuturaPT", "Arial", "sans-serif";
@@ -31,12 +28,18 @@ a {
   width: 13rem;
   height: 5vh;
 }
+@media only screen and (max-width: 1191px) {
+  .what{
+background-color: blueviolet;
+display: none;
+  }
+}
+
 .Select-form {
   width: 194px;
 }
 .select-Text {
   height: 5vh;
-  
 }
 .let {
   font-family: "FuturaPT", "Arial", "sans-serif";
@@ -53,41 +56,43 @@ a {
 }
 /* _____FOOTER_____ */
 .paypal {
-  width: 3rem;
+  width: 2rem;
 }
 .mastercard {
-  width: 3rem;
-  margin-left: 0.5rem;
+  width: 2rem;
+  margin-left: 0.2rem;
+}
+.yea{
+  max-width: 60rem;
+  padding: 2rem 0rem;
+
 }
 
 
-/* MY IFNO  */
+/* IFNO  */
+.info-image{
+  width: 25rem;
+}
 @media only screen and (max-width: 990px) {
-  .checking-info{
-display: flex;
-  flex-direction: column-reverse;
- 
-
+  .info-card-main {
+    display: flex;
+    flex-direction: column-reverse;
   }
-  .checkOut{
-margin-left: 40px;
-width: 120em;
+  .info-card-img {
+    margin-left: 40px;
+    width: 120em;
   }
-  .checkOut2{
+  .info-card-text {
     text-align: center;
     width: 130em;
-    
-      }
+  }
 }
-.detail-image{
+.detail-image {
   height: 80vh;
- 
-  
 }
-.detail-input{
+.detail-input {
   display: flex;
-
 }
-.detail-button-color{
+.detail-button-color {
   color: black;
 }

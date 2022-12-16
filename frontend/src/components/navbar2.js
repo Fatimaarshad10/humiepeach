@@ -1,37 +1,39 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 import "../App.css";
-function NavScrollExample() {
+function SecondNavbar() {
   return (
     <Navbar expand="lg" className="second-navbar">
-      <Container fluid>
+      <Container>
         <Nav className="mx-auto text-center second-navbar-nav">
-          <Nav.Link className="mx-1  " href="/Watercolour" >
+          <Link className=" mx-3 " to="/Watercolour">
+           
             WATERCOLOUR
-          </Nav.Link>
-          <Nav.Link className=" mx-1 " href="/Pencil">
+          </Link>
+          <Link className=" mx-3 second-navbar-link" to="/Pencil">
             PENCIL
-          </Nav.Link>
-          <Nav.Link className=" mx-1  " href="/Acrylic">
+          </Link>
+          <Link className=" mx-3 second-navbar-link" to="/Acrylic">
             ACRYLIC
-          </Nav.Link>
-          <Nav.Link className=" mx-1  " href="/Oil">
+          </Link>
+          <Link className=" mx-3 second-navbar-link" to="/Oil">
             OIL
-          </Nav.Link>
-          <Nav.Link className=" mx-1 " href="/Guides">
+          </Link>
+          <Link className=" mx-3 second-navbar-link" to="/Guides">
             GUIDES
-          </Nav.Link>
-          <Nav.Link className=" mx-1 " href="/Sketchbooks">
+          </Link>
+          <Link className=" mx-3 second-navbar-link" to="/Sketchbooks">
             SKETCHBOOKS
-          </Nav.Link>
-          <Nav.Link className=" mx-1" href="/Prints">
+          </Link>
+          <Link className=" mx-3 second-navbar-link" to="/Prints">
             PRINTS
-          </Nav.Link>
+          </Link>
         </Nav>
       </Container>
     </Navbar>
   );
 }
 
-export default NavScrollExample;
+export default SecondNavbar;

@@ -1,30 +1,21 @@
 import React from "react";
-import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Shop from "./components/shop";
 import Detail from "./components/detail";
-import MainNavbar from "./components/navbar";
-import MdNavbar from "./components/navbar2";
-
+import FirstNavbar from "./components/navbar";
+import SecoundNavbar from "./components/navbar2";
+import "./App.css";
 function App() {
   return (
     <>
-    
-     <div>
-     <MainNavbar />  
-      <MdNavbar/>
-      <Routes>
-      <Route path="/Shop" element={<Shop />} />
-        
-        <Route path="/Watercolour/product/:id" element={<Detail/>} />
-      
-
-        
-      </Routes>
-      
-      
-      
-     </div>
+      <div>
+        <FirstNavbar />
+        <SecoundNavbar />
+        <Routes>
+          <Route path="/Shop" element={<Shop />} />
+          <Route path="/Watercolour/product/:id" element={<Detail />} />
+        </Routes>
+      </div>
     </>
   );
 }
